@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:hint="Type to search"
+        android:id="@+id/search_type_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<ListView
+    android:layout_below="@+id/search_type_text"
+    android:layout_above="@+id/cls_btn"
+    android:id="@+id/search_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></ListView>
+    <Button
+        android:id="@+id/cls_btn"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:text="Close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
